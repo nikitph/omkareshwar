@@ -5,6 +5,8 @@ import { ScrollView, Text, Image, View } from 'react-native'
 import { Images } from '../Themes'
 import RoundedButton from '../Components/RoundedButton'
 import { Actions as NavigationActions } from 'react-native-router-flux'
+import * as Animatable from 'react-native-animatable';
+
 
 // Styles
 import styles from './Styles/PresentationScreenStyle'
@@ -23,8 +25,8 @@ export default class PresentationScreen extends React.Component {
           </View>
           <View style={{flex:1, flexDirection:'row'}}>
 
-            <View style={{flex:1,marginVertical: 4,
-              marginHorizontal:20}}>
+            <Animatable.View style={{flex:1,marginVertical: 4,
+              marginHorizontal:20}} animation="slideInLeft">
 
           <RoundedButton onPress={NavigationActions.componentExamples}>
 Legend          </RoundedButton>
@@ -40,7 +42,7 @@ Activites          </RoundedButton>
 
           <RoundedButton onPress={NavigationActions.deviceInfo}>
 Nearby          </RoundedButton>
-              </View>
+              </Animatable.View>
               <Text style={{flex:1, color:'transparent'}} >
                 abc
               </Text>
