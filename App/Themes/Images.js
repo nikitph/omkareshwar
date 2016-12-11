@@ -8,6 +8,8 @@ const images = {
   omka: require('../Images/omka.jpg'),
   omka2: require('../Images/omka2.jpg'),
   omka3: require('../Images/omka3.jpg'),
+  omka4: require('../Images/omka4.jpg'),
+  omka5: require('../Images/omka5.jpg'),
   tileBg: require('../Images/tile_bg.png'),
   topLogo: require('../Images/top_logo.png'),
 };

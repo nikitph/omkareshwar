@@ -15,7 +15,7 @@ export default class PresentationScreen extends React.Component {
   render () {
     return (
       <View style={styles.mainContainer}>
-        <Image source={Images.omka3} style={styles.backgroundImage} resizeMode='cover'/>
+        <Image source={Images.omka4} style={styles.backgroundImage} resizeMode='cover'/>
         <ScrollView style={styles.container}>
           <View style={styles.lefted}>
             <Text style={styles.leftSectionText}>
