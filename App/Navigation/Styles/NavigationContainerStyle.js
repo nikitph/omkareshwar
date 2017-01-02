@@ -7,15 +7,15 @@ export default {
     flex: 1
   },
   navBar: {
-    backgroundColor: 'transparent'
+    backgroundColor: 'white'
   },
   title: {
-    color: Colors.charcoal
+    color: Colors.fire
   },
   leftButton: {
-    tintColor: Colors.charcoal
+    tintColor: Colors.fire
   },
   rightButton: {
-    color: Colors.snow
+    color: Colors.fire
   }
 }

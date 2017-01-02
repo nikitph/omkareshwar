@@ -28,7 +28,7 @@ export default class PresentationScreen extends React.Component {
             <Animatable.View style={{flex:1,marginVertical: 4,
               marginHorizontal:20}} animation="slideInLeft">
 
-          <RoundedButton onPress={NavigationActions.componentExamples}>
+          <RoundedButton onPress={NavigationActions.legend}>
 Legend          </RoundedButton>
 
           <RoundedButton onPress={NavigationActions.usageExamples}>

@@ -32,7 +32,7 @@ export default {
       <TouchableOpacity onPress={openDrawer}>
         <Icon name='bars'
           size={Metrics.icons.small}
-          color={Colors.charcoal}
+          color={Colors.fire}
           style={styles.navButtonLeft}
         />
       </TouchableOpacity>
