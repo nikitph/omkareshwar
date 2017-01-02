@@ -14,6 +14,8 @@ export default StyleSheet.create({
     fontWeight: '100',
     fontFamily:'futura',
     fontSize: Fonts.size.medium,
-    marginVertical: Metrics.baseMargin
+    marginVertical: Metrics.baseMargin,
+    marginLeft:Metrics.baseMargin,
+    marginRight:Metrics.baseMargin
   }
 })
