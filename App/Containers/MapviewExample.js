@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 import MapView from 'react-native-maps'
 import { calculateRegion } from '../Lib/MapHelpers'
 import MapCallout from '../Components/MapCallout'
@@ -107,6 +107,10 @@ class MapviewExample extends React.Component {
         >
           {this.state.locations.map((location) => this.renderMapMarkers(location))}
         </MapView>
+        <Text style={Styles.leftSectionText}>
+          Omkareshwar
+          Land of the lord
+        </Text>
       </View>
     )
   }

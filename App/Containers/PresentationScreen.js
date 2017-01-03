@@ -31,7 +31,7 @@ export default class PresentationScreen extends React.Component {
           <RoundedButton onPress={NavigationActions.legend}>
 Legend          </RoundedButton>
 
-          <RoundedButton onPress={NavigationActions.usageExamples}>
+          <RoundedButton onPress={NavigationActions.transport}>
 Transportation          </RoundedButton>
 
           <RoundedButton onPress={NavigationActions.apiTesting}>
@@ -40,7 +40,7 @@ Services          </RoundedButton>
           <RoundedButton onPress={NavigationActions.theme}>
 Activites          </RoundedButton>
 
-          <RoundedButton onPress={NavigationActions.deviceInfo}>
+          <RoundedButton onPress={NavigationActions.mapviewExample}>
 Nearby          </RoundedButton>
               </Animatable.View>
               <Text style={{flex:1, color:'transparent'}} >
